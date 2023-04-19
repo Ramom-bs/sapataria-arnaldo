@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Tilt+Prism&display=swap');
+
 
 body {
-    color: rgb(253, 253, 253);
+    font-family: 'Bodoni Moda';
+}
+
+main {
+    margin: auto;
+    width: 80%;
+}
+
+body {
+    color: rgb(0, 0, 0);
 
     background-color: #A9907E
 }
@@ -11,3 +22,21 @@ body {
     justify-content: space-between;
 }
 
+label,
+button {
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{   
+
+    width: 100%;
+}
+
+.contact-form input{
+
+    width: 60%;
+    margin: auto
+}
