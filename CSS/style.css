@@ -14,7 +14,7 @@ main {
 body {
     color: rgb(0, 0, 0);
 
-    background-color: #A9907E
+    background-color: #a07f68
 }
 
 .container {
@@ -27,16 +27,22 @@ button {
     display: block;
 }
 
+.contact-form {
+    width: 70%;
+    margin: auto;
+}
+
 .contact-form input,
 .contact-form textarea,
 .contact-form select,
-.contact-form button{   
+.contact-form button {   
 
     width: 100%;
+    box-sizing: border-box;
 }
 
 .contact-form input{
 
-    width: 60%;
+    width: 100%;
     margin: auto
 }
