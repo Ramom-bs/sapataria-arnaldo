@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Tilt+Prism&display=swap');
 
-
 body {
     font-family: 'Bodoni Moda';
     color: rgb(0, 0, 0);
@@ -40,4 +39,9 @@ button {
 
     width: 100%;
     margin: auto;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
 }
