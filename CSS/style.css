@@ -6,10 +6,9 @@ body {
     background-color: #a07f68
 }
 
-.navbar  a {
-    background-color:#cc9966
+.navbar a {
+    background-color: #000000
 }
-
 
 main {
     margin: auto;
@@ -34,13 +33,13 @@ button {
 .contact-form input,
 .contact-form textarea,
 .contact-form select,
-.contact-form button {   
+.contact-form button {
 
     width: 100%;
     box-sizing: border-box;
 }
 
-.contact-form input{
+.contact-form input {
 
     width: 100%;
     margin: auto;
@@ -49,4 +48,11 @@ button {
 .navbar ul {
     display: flex;
     justify-content: space-evenly;
+}
+
+a:visited {
+    color:rgb(192, 146, 104)
+}
+a:hover {
+    color:rgb(230, 103, 18)
 }
