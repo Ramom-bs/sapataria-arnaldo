@@ -6,6 +6,11 @@ body {
     background-color: #a07f68
 }
 
+.navbar  a {
+    background-color:#cc9966
+}
+
+
 main {
     margin: auto;
     width: 80%;
